@@ -1,0 +1,249 @@
+body {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+}
+
+/*ヘッダー*/
+.header {
+  width: 100%;
+  position: absolute;
+  padding-bottom: 20px;
+}
+
+.header-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 36px 0 36px;
+  max-width: 100%;
+  position: relative;
+}
+
+/*ヘッダーロゴ*/
+.header-logo {
+  display: block;
+  height: 20px;
+  width: auto;
+}
+
+.header-logo:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+/*ナビメニュー*/
+.header-navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navi-item {
+  margin-right: 45px;
+}
+
+.navi-item-a {
+  display: block;
+  font-weight: 700;
+  text-align: center;
+  font-size: 13px;
+}
+
+.navi-item-a:hover {
+  opacity: 0.7;
+}
+
+.navi-item-bt-a:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.navi-item-a-s {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navi-item-bt-a {
+  align-items: center;
+  background-color: orange;
+  border: none;
+  border-radius: 35px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  height: 40px;
+  padding: 0 20px;
+}
+
+/*メイン部分*/
+.firstview {
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 25px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.firstview-container {
+  max-width: 1140px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/*メイン部分テキスト*/
+.firstview-container-txt {
+  margin-bottom: 15px;
+  width: fit-content;
+  text-align: center;
+  display: block;
+}
+
+.firstview-container-txt-explain {
+  color: black;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 15px;
+}
+
+.firstview-container-txt p {
+  display: block;
+}
+
+/*メイン部分画像*/
+.firstview-container-txt-img {
+  margin-bottom: 25px;
+}
+
+/*メイン部分ボタン*/
+.firstview-container-txt-bt {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.firstview-container-txt-bt a:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.firstview-container-txt-bt a:first-of-type {
+  margin-right: 15px;
+  width: 300px;
+}
+
+.firstview-container-txt-bt a:last-of-type {
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+  width: 175px;
+}
+
+.firstview-container-txt-bt a {
+  align-items: center;
+  background-color: orange;
+  border-radius: 35px;
+  color: white;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  height: 65px;
+}
+
+/*メイン部分米印*/
+.kome {
+  color: grey;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.kome-a {
+  color: grey;
+}
+
+/*説明部分*/
+.about {
+  background-color: orange;
+  padding: 45px 0;
+}
+
+.explain {
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.explain-txt {
+  max-width: 1140px;
+}
+
+.explain-txt p {
+  color: white;
+  font-weight: 900;
+}
+
+.explain-txt p:first-of-type {
+  font-size: 30px;
+}
+
+.explain-txt-s {
+  font-size: 50px;
+}
+
+/*説明部分ボタン*/
+.explain-bt {
+  width: 250px;
+}
+
+.explain-bt a {
+  align-items: center;
+  border-radius: 35px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  height: 65px;
+  justify-content: center;
+  text-decoration: none;
+  text-align: center;
+  color: orange;
+  background-color: white;
+  flex-direction: column;
+  width: 100%;
+}
